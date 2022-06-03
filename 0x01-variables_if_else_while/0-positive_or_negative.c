@@ -2,11 +2,12 @@
 #include <stdlib.h>
 #include <time.h>
 
-/* more headers goes there */
-
-
-
-/* betty style doc for function main goes there */
+/**
+ * main - Prints "is positive" if randomly generated number is greater
+ * than zero or "is zero" if it is equal to zero or "is negative" if it is
+ * less than zero.
+ *
+ * Return: Always 0 (Successful) */
 
 int main(void)
 
