@@ -6,8 +6,15 @@
  *
  * Return: Always 0 (Success)
  */
-int main =(void)
+int main(void)
 {
-	char alpha;
+	char ch;
+	
+	for (ch = 'z'; ch >= 'a'; ch--)
+	{
+		putchar(ch);
+	}
+	putchar('\n');
+	return (0);
+}
 
-	for (
