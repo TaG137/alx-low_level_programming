@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints the alphabet in lowercase execpt for 
+ * main - Prints the alphabet in lowercase execpt for
  * 'e' and 'q'
  *
  * Return: Always 0 (Successful)
@@ -17,7 +17,7 @@ int main(void)
 			putchar(alpha);
 		} 
 		alpha++;
-	} 
+	}
 	putchar('\n');
 	return (0);
 }
