@@ -4,7 +4,8 @@
 
 /**
  * main - prints the last digit of the number stored in n and 
- * prints "and is greater than 5" or "and is 0" or "and is less than 6 and not 0"
+ * prints "and is greater than 5" or "and is 0"
+ * or "and is less than 6 and not 0"
  * depending on the value of the number.
  *
  * Return: Always 0 (Successful)
