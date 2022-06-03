@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints a combination of digits separated by an 
+ * main - prints a combination of digits separated by an
  * apostrophe.
  *
  * Return: Always 0 (successful)
