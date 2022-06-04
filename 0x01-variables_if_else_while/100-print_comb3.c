@@ -21,7 +21,7 @@ int main(void)
 				if (f != 8 || s != 9)
 				{
 					putchar(' ');
-					putchar(';');
+					putchar(',');
 				}
 			}
 		}
