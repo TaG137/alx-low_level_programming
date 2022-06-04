@@ -20,8 +20,8 @@ int main(void)
 				putchar(s + '0');
 				if (f != 8 || s != 9)
 				{
-					putchar(' ');
 					putchar(',');
+					putchar(' ');
 				}
 			}
 		}
