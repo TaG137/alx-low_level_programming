@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * _abs - computes the absolute value of int
- * @int: the interger needed to compute
+ * _abs - computes the absolute value of number
+ * @n: the interger needed to compute
  *
  * Return: Always 0 (success)
  */
