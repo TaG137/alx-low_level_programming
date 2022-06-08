@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
  * print_times_table - prints the times table of numbers
  * between 0 and 15.
@@ -22,21 +21,15 @@ void print_times_table(int n)
 				if (m != n)
 				{
 					if (o < 10 && o != 0)
-					{
 						printf("   %d,", o);
-					} else if (o >= 10 && o < 100)
-					{
+					else if (o >= 10 && o < 100)
 						printf("  %d,", o);
-					} else if (o >= 100)
-					{
+					else if (o >= 100)
 						printf(" %d,", o);
-					} else if (p == 0)
-					{
+					else if (p == 0)
 						printf("%d,   ", o);
-					} else if (o == 0)
-					{
+					else if (o == 0)
 						printf("%d,", o);
-					}
 				} else if (m == n)
 				{
 					if (o < 10 && o != 0)
