@@ -6,7 +6,7 @@
  *
  * Return: 0
  */
- int main(void)
+int main(void)
 {
 	int n;
 	unsigned long int sum, sum1, sum2;
