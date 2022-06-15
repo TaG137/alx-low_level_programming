@@ -7,16 +7,21 @@
 * Return: dest
 */
 
-char *_strcat(char *src, char *dest)
+char *_strcat(char *dest, char *src)
 {
-  int j, i;
-  
-  while(j = 0; src[j] != '\0')
-  {
-    len++;
-    _putchar(src[j]);
-  }
-  return(dest);
+	int i, j;
+
+	i = 0;
+	j = 0;
+	while (src[j] != '\0'; dest[i] != '\0')
+	{
+		dest[i] = src[j];
+		j++;
+		i++;
+	}
+
+	dest[i] = '\0';
+
+	return (dest);
 }
-    
     
