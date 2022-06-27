@@ -11,20 +11,22 @@
  * (fail)
  */
 
-char *create_array(unsigned int size; char c)
+char *create_array(unsigned int size, char c)
 {
 	char *pt;
 	unsigned int s = 0;
 
 	if (size == 0)
 		return (NULL);
-	pt = malloc(sizeof(char) * size);
+	pt = (char *) malloc(sizeof(char) * size);
+	if (pt == NULL)
+		return (0);
 	while (s < size)
 	{
 		*(pt + s) = c;
 		s++;
 	}
 	*(pt + s) = '\0';
-	return(pt);
+	return (pt);
 }
 	
