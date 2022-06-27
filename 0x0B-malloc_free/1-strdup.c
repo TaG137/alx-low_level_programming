@@ -6,28 +6,35 @@
  * strdup - returns a pointer to a new string
  * that is a duplicate of str in memory.
  * @str: The string that is duplicated.
- * @pt: Pointer to duplicate string.
+ * @dup: Pointer to duplicate string.
  * @len: Length of strings.
+ * @i: variable
  * Return: NULL if string is NULL or memory is
  * insufficient, else returns a pointer to copied string.
  */
 
 char *_strdup(char *str)
 {
-	char *pt;
-	int len;
+	char *dup;
+	unsigned int i, len;
+
+	i = 0;
+	len = 0;
 
 	if (str == NULL)
 		return (NULL);
-	for (len = 0; str[len] != '\0'; len++)
-	{
-		pt = malloc(sizeof(char) * (len + 1));
-		if (pt == NULL)
-		{
-			return (NULL);
-		}
-		pt[len] = str[len];
-	}
-	return (pt);
+
+	while (str[len])
+		len++;
+
+	dup = malloc(sizeof(char) * (len + 1));
+
+	if (dup == NULL)
+		return (NULL);
+
+	while ((dup[i] = str[i]) != '\0')
+		i++;
+
+	return (dup);
 }
 
