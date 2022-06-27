@@ -29,4 +29,3 @@ char *create_array(unsigned int size, char c)
 	*(pt + s) = '\0';
 	return (pt);
 }
-	
