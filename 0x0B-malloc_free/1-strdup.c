@@ -6,9 +6,6 @@
  * *_strdup - returns a pointer to a new string
  * that is a duplicate of str in memory.
  * @str: The string that is duplicated.
- * @dup: Pointer to duplicate string.
- * @len: Length of strings.
- * @i: variable
  * Return: NULL if string is NULL or memory is
  * insufficient, else returns a pointer to copied string.
  */
