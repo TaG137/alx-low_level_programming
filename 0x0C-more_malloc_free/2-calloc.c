@@ -45,8 +45,3 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	return (ptr);
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
