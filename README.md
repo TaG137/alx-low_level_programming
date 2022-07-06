@@ -1,1 +1,1 @@
-learning programming
+pointer to function
